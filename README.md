@@ -126,17 +126,3 @@ api/pagination.py   Paginación de 10, máximo 50
 api/tests.py        Pruebas automatizadas de API e integración
 requirements.txt    Dependencias del proyecto
 ```
-
-
-## Publicar en GitHub
-
-El proyecto no crea commits ni repositorios remotos. Cuando hayas revisado las pruebas, crea un repositorio vacío en tu cuenta y ejecuta desde esta carpeta:
-
-```powershell
-git init
-git add .
-git commit -m "Completa practica de API RESTful - Semana 13"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-git push -u origin main
-```
